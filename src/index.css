@@ -20,3 +20,19 @@ body {
 .bg-primary-color {
   background-image: linear-gradient(to right, #6b2b72, #a5079d);
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ce90cb;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6b2b72;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #9d2eb1
+}

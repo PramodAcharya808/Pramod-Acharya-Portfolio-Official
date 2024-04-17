@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="navBar  stic mx-auto box-border flex h-20  select-none items-center justify-between rounded-b-xl bg-[#1d1f23] pe-5 ps-5 text-white">
+    <nav className="navBar sticky top-0  mx-auto box-border  flex h-20 select-none items-center justify-between rounded-b-xl bg-[#1d1f23] pe-5 ps-5 text-white">
       {/* Desktop nav bar */}
       <h1 className="logo primary-color cursor-pointer select-none text-3xl font-bold transition-all active:scale-110 md:hover:scale-110">
         Pramod
@@ -58,7 +58,7 @@ const Navbar = () => {
           <li className="cursor-pointer">Projects</li>
         </ul>
       </div>
-    </div>
+    </nav>
   );
 };
 
