@@ -9,8 +9,8 @@ import profilePic from "../../assets/profile-pic.png";
 const Hero = () => {
   return (
     <main
-      className="heroWrapper  flex  select-none flex-col items-center  justify-center space-y-10 pb-32 pt-5 text-center text-white "
-      id="heroSection"
+      className="heroWrapper  flex  select-none flex-col items-center  justify-center space-y-10 pb-32 pt-6 text-center text-white "
+      id="home"
     >
       <a
         className="profile w-60 cursor-help rounded-full shadow-[0_10px_20px_rgba(240,_46,_170,_0.7)] transition-all active:scale-90 md:w-72"

@@ -3,7 +3,10 @@ import ProjectCard from "./ProjectCard";
 
 const Project = () => {
   return (
-    <section className="projectSection space-y-10 bg-[#1C1F24] py-10 font-bold text-white">
+    <section
+      className="projectSection space-y-10 bg-[#1C1F24] py-20 font-bold text-white"
+      id="projects"
+    >
       <h1 className="headding text-center text-xl uppercase">
         My <span className="primary-color">Projects</span>
       </h1>

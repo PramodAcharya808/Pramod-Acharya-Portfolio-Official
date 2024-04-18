@@ -6,7 +6,7 @@ export const projectData = [
       "A fully fledged Full Stack learning management system developed to an EdTech startup company VISHWACLOUDLAB to make there teaching and learning experience increase by 10X",
     mockup: "project-mockup/vcl-project.png",
     tools: [
-      "React",
+      "React 18",
       "Redux",
       "Next13",
       "Tailwind",

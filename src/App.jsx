@@ -4,6 +4,8 @@ import About from "./components/About/About";
 import SkillScroll from "./components/Skills/SkillScroll";
 import ScrollTop from "./components/ScrollTopBtn/ScrollTop";
 import Project from "./components/Projects/Project";
+import Connect from "./components/Connect/Connect";
+import Footer from "./components/Footer/Footer.jsx";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <SkillScroll></SkillScroll>
         <About></About>
         <Project></Project>
+        <Connect></Connect>
+        <Footer></Footer>
       </div>
     </>
   );

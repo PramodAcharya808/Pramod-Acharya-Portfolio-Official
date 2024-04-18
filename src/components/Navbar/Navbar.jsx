@@ -18,7 +18,10 @@ const Navbar = () => {
       </h1>
       <div className="deskNav  hidden h-12 items-center justify-between  md:flex">
         <ul className="navList flex">
-          <a className="cursor-pointer p-5 transition-all hover:animate-ping hover:font-bold">
+          <a
+            className="cursor-pointer p-5 transition-all hover:animate-ping hover:font-bold"
+            href="#home"
+          >
             Home
           </a>
           <a
@@ -27,10 +30,16 @@ const Navbar = () => {
           >
             About Me
           </a>
-          <a className="cursor-pointer p-5 transition-all hover:animate-ping hover:font-bold">
+          <a
+            className="cursor-pointer p-5 transition-all hover:animate-ping hover:font-bold"
+            href="#projects"
+          >
             Projects
           </a>
-          <a className="cursor-pointer p-5 transition-all hover:animate-ping hover:font-bold">
+          <a
+            className="cursor-pointer p-5 transition-all hover:animate-ping hover:font-bold"
+            href="#connect"
+          >
             Connect
           </a>
         </ul>
@@ -54,11 +63,19 @@ const Navbar = () => {
         <h1 className="logo primary-color mt-2 cursor-pointer select-none text-center text-3xl font-bold">
           Pramod
         </h1>
-        <ul className="navList space-y-10 p-5 text-xl">
-          <li className="cursor-pointer">Home</li>
-          <li className="cursor-pointer">About Me</li>
-          <li className="cursor-pointer">Projects</li>
-          <li className="cursor-pointer">Connect</li>
+        <ul className="navList p-5 text-xl">
+          <a href="#home">
+            <li className=" my-5 cursor-pointer">Home</li>
+          </a>
+          <a href="#aboutMe">
+            <li className="my-5 cursor-pointer ">About Me</li>
+          </a>
+          <a href="#projects">
+            <li className="my-5 cursor-pointer ">Projects</li>
+          </a>
+          <a href="#connect">
+            <li className="my-5 cursor-pointer ">Connect</li>
+          </a>
         </ul>
       </div>
     </nav>
