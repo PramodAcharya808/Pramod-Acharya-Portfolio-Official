@@ -9,7 +9,7 @@ import profilePic from "../../assets/profile-pic.png";
 const Hero = () => {
   return (
     <main
-      className="heroWrapper flex  h-[40rem]  select-none flex-col items-center justify-center space-y-10  text-center text-white md:h-[50rem]"
+      className="heroWrapper  flex  select-none flex-col items-center  justify-center space-y-10 pb-32 pt-5 text-center text-white "
       id="heroSection"
     >
       <a

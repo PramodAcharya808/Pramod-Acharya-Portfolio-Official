@@ -1,16 +1,17 @@
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
-import DesktopDisplay from "./components/DisplayLayout/DesktopDisplay";
 import About from "./components/About/About";
+import SkillScroll from "./components/Skills/SkillScroll";
+import ScrollTop from "./components/ScrollTopBtn/ScrollTop";
 function App() {
   return (
     <>
       <div>
-        <DesktopDisplay>
-          <Navbar></Navbar>
-          <Hero></Hero>
-          <About></About>
-        </DesktopDisplay>
+        <ScrollTop></ScrollTop>
+        <Navbar></Navbar>
+        <Hero></Hero>
+        <SkillScroll></SkillScroll>
+        <About></About>
       </div>
     </>
   );

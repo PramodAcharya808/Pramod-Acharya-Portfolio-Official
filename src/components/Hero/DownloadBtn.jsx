@@ -24,7 +24,11 @@ function DownloadBtn() {
           </svg>{" "}
           Download CV
         </div>
-        <a className="download" href="https://www.google.com" target="blank">
+        <a
+          className="download"
+          href="https://drive.google.com/file/d/1OTsTzJ8ckf42dxziqSggUbPqB85a3Nz-/view?usp=sharing"
+          target="blank"
+        >
           <svg
             className="css-i6dzq1"
             strokeLinejoin="round"

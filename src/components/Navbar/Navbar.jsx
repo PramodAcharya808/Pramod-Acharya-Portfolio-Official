@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navBar sticky top-0  mx-auto box-border  flex h-20 select-none items-center justify-between rounded-b-xl bg-[#1d1f23] pe-5 ps-5 text-white">
+    <nav className="navBar sticky top-0  z-10 mx-auto  box-border flex h-20 max-w-[1200px] select-none items-center justify-between rounded-b-xl bg-[#1d1f23] pe-5 ps-5 text-white">
       {/* Desktop nav bar */}
       <h1 className="logo primary-color cursor-pointer select-none text-3xl font-bold transition-all active:scale-110 md:hover:scale-110">
         Pramod
@@ -44,8 +44,8 @@ const Navbar = () => {
       <div
         className={
           isOpen
-            ? "text fixed left-0 top-0  z-[5] flex h-full w-[60%] select-none flex-col space-y-5 bg-[#1E2020] text-gray-400 transition-all duration-700"
-            : "fixed -left-[1000px] top-0 z-[5] h-full w-[60%] space-y-5 transition-all duration-1000"
+            ? "text fixed left-0 top-0  z-[5] flex h-full w-[60%] select-none flex-col space-y-5 overflow-hidden bg-[#1E2020] text-gray-400 transition-all duration-700"
+            : "fixed -left-[1000px] top-0 z-[5] h-full w-[60%] space-y-5 overflow-hidden transition-all duration-1000"
         }
       >
         <h1 className="logo primary-color mt-2 cursor-pointer select-none text-center text-3xl font-bold">
