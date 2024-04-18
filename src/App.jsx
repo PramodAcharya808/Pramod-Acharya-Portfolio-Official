@@ -4,6 +4,7 @@ import About from "./components/About/About";
 import SkillScroll from "./components/Skills/SkillScroll";
 import ScrollTop from "./components/ScrollTopBtn/ScrollTop";
 import Project from "./components/Projects/Project";
+
 function App() {
   return (
     <>

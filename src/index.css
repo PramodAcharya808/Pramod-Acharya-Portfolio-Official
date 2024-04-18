@@ -5,6 +5,9 @@
 
 /* *Create custome scroll bar */
 
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   background-color: #20242d;

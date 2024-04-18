@@ -16,6 +16,8 @@ export default {
       backgroundImage: {
         aboutBg:
           "linear-gradient(90deg, rgba(56,69,96,1) 0%, rgba(0,0,0,1) 100%)",
+        aboutBgRight:
+          "linear-gradient(-90deg,  rgba(56,69,96,1) 0%, rgba(0,0,0,1) 100%);",
       },
     },
   },
