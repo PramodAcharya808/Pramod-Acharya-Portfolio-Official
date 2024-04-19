@@ -19,25 +19,25 @@ const Navbar = () => {
       <div className="deskNav  hidden h-12 items-center justify-between  md:flex">
         <ul className="navList flex">
           <a
-            className="cursor-pointer p-5 transition-all hover:animate-ping hover:font-bold"
+            className="cursor-pointer p-5 transition-all hover:font-bold"
             href="#home"
           >
             Home
           </a>
           <a
-            className="cursor-pointer p-5 transition-all hover:animate-ping hover:font-bold"
+            className="cursor-pointer p-5 transition-all hover:font-bold"
             href="#aboutMe"
           >
             About Me
           </a>
           <a
-            className="cursor-pointer p-5 transition-all hover:animate-ping hover:font-bold"
+            className="cursor-pointer p-5 transition-all hover:font-bold"
             href="#projects"
           >
             Projects
           </a>
           <a
-            className="cursor-pointer p-5 transition-all hover:animate-ping hover:font-bold"
+            className="cursor-pointer p-5 transition-all hover:font-bold"
             href="#connect"
           >
             Connect
