@@ -4,7 +4,10 @@ import { MdEmail } from "react-icons/md";
 
 const Connect = () => {
   return (
-    <section className="connectSection py-20 md:py-0" id="connect">
+    <section
+      className="connectSection mb-16 py-20 md:mb-0  md:py-0"
+      id="connect"
+    >
       <div className="formWrapper mx-auto h-[450px] max-w-[1200px] items-center justify-center space-y-5 md:flex md:space-x-10 md:space-y-0 ">
         <div className="myInfo flex h-[50%] flex-col items-center justify-center space-y-7 rounded-3xl bg-[#1C1F24] md:h-[60%] md:w-[40%]">
           <p className="text-3xl font-bold text-white ">
