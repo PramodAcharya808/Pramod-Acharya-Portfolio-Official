@@ -7,10 +7,13 @@ export default function ProjectCard() {
       {projectData.map((projects) => {
         return (
           <div
-            className="cards bg-aboutBgRight a flex min-h-[350px] flex-col items-center space-x-5 rounded-3xl p-10 md:flex-row"
+            className="cards a flex min-h-[350px] flex-col items-center gap-8 rounded-3xl bg-aboutBgRight p-10 md:flex-row"
             key={projects.id}
           >
-            <img src={projects.mockup} className="md:h-1/2 md:w-1/3" />
+            <img
+              src={projects.mockup}
+              className="rounded-3xl md:h-1/2 md:w-1/3"
+            />
 
             <div className="content my-5 space-y-6 md:my-0 md:space-y-4">
               <p className="title text-2xl text-slate-100">{projects.title}</p>

@@ -31,7 +31,7 @@ const Connect = () => {
             <div className="username ">
               <input
                 type="text"
-                autocomplete="off"
+                autoComplete="off"
                 required="required"
                 name="text"
                 className="input  md:w-[100%]"
@@ -41,7 +41,7 @@ const Connect = () => {
             <div className="emailAddress">
               <input
                 type="email"
-                autocomplete="off"
+                autoComplete="off"
                 name="email"
                 required="required"
                 className="input  md:w-[100%]"
@@ -52,7 +52,7 @@ const Connect = () => {
             <div className="message">
               <textarea
                 type="text"
-                autocomplete="off"
+                autoComplete="off"
                 name="message"
                 className="input  md:w-[100%]"
                 placeholder="Message"
