@@ -26,7 +26,7 @@ function DownloadBtn() {
         </div>
         <a
           className="download"
-          href="https://drive.google.com/file/d/1OTsTzJ8ckf42dxziqSggUbPqB85a3Nz-/view?usp=sharing"
+          href="https://drive.google.com/file/d/1HumvPKEiTsO3ZKw8lpt9pj426YJFscxR/view?usp=sharing"
           target="blank"
         >
           <svg
