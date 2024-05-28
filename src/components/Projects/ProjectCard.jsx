@@ -44,7 +44,7 @@ export default function ProjectCard() {
                     <span className="absolute -top-[150%] left-0 inline-flex h-[5px] w-80 rounded-md bg-green-400 opacity-50 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)] shadow-green-400 duration-500 group-hover:top-[150%]"></span>
                     Source Code
                   </button>
-                  {projects.id === 1 ? (
+                  {projects.id === 2 ? (
                     <span className="my-5 block text-slate-400 md:mx-3 md:my-0 md:inline">
                       Full SRC is not accessible. NDA Signed
                     </span>
