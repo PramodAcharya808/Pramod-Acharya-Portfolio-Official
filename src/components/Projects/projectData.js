@@ -1,5 +1,25 @@
 export const projectData = [
   {
+    id: 4,
+    title: "Quizzie - Join, Participate, Explore",
+    description:
+      "A public quiz platform offering interactive Q&A and poll-based quizzes, allowing users to engage, participate, and test their knowledge in various topics while contributing their own questions and polls.",
+    mockup: "project-mockup/quizzie.png",
+    tools: [
+      "React.JS",
+      "Vanilla CSS",
+      "Node.JS",
+      "Express.JS",
+      "MongoDB",
+      "Mongoose",
+      "Postman",
+      "Render",
+    ],
+    live: "https://quizzie-cuvette-pramod.vercel.app/",
+    sourcecode:
+      "https://github.com/PramodAcharya808/Quizzie-Public_Quiz_Application",
+  },
+  {
     id: 3,
     title: "VibeConnect - Share your vibe, Connect your tribe",
     description:
