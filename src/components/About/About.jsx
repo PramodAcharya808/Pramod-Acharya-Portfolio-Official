@@ -10,7 +10,7 @@ function About() {
       <div className="aboutWrapper max-h[1200px] mx-auto box-border flex max-w-[1200px] flex-col items-center  justify-center space-y-11  bg-aboutBg p-10 md:flex-row md:space-x-11 md:space-y-0 md:rounded-3xl">
         <img src={aboutDp} className="h-60 w-60 rounded-full" />
         <h3 className="text-justify font-bold text-gray-400 ">
-          <p className=" mb-5 text-center text-xl font-bold uppercase text-white md:text-left">
+          <p className="mb-5 text-center text-xl font-bold uppercase text-white md:text-left">
             About <span className="primary-color">Me !</span>
           </p>
           Passionate Full Stack Web Developer with expertise in frontend and

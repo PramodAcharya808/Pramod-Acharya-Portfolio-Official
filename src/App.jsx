@@ -6,6 +6,7 @@ import ScrollTop from "./components/ScrollTopBtn/ScrollTop";
 import Project from "./components/Projects/Project";
 import Connect from "./components/Connect/Connect";
 import Footer from "./components/Footer/Footer.jsx";
+import MySkills from "./components/MySkills/MySkills.jsx";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Hero></Hero>
         <SkillScroll></SkillScroll>
         <About></About>
+        <MySkills />
         <Project></Project>
         <Connect></Connect>
         <Footer></Footer>
