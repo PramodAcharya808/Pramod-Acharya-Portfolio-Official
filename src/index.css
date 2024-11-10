@@ -3,8 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* *Create custome scroll bar */
-
+/* Custom Scroll Bar */
 html {
   scroll-behavior: smooth;
 }
